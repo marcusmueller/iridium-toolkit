@@ -196,7 +196,7 @@ if __name__ == "__main__":
 
     for opt, arg in options:
         if opt in ('-r', '--rate'):
-            sample_rate = int(arg)
+            sample_rate = float(arg)
         elif opt in ('-s', '--speed'):
             search_size = int(arg)
         elif opt in ('-d', '--db'):

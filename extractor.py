@@ -123,7 +123,7 @@ if __name__ == "__main__":
         elif opt in ('-c', '--center'):
             center = int(arg)
         elif opt in ('-r', '--rate'):
-            sample_rate = int(arg)
+            sample_rate = float(arg)
         elif opt in ('-s', '--search'):
             search_depth = float(arg)
         elif opt in ('-S', '--speed'):
